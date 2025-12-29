@@ -28,6 +28,19 @@ CHSI (physiological strain index) is currently **suppressed** in this public rel
 - Keeps an audit trail
 
 ---
+## Weather Data Source
+
+This application uses **Open-Meteo** for automatically retrieved weather data.
+
+Open-Meteo provides high-quality model-based meteorological data, but it does **not**
+update at the same frequency as physical on-site weather stations.
+Update intervals may range from 1 to several hours depending on location.
+
+For safety-critical decisions, **local on-site measurements always take priority**
+over fetched weather data.
+
+The Open-Meteo data is intended to provide a reasonable site baseline
+when no local instrument is available.
 
 ## Disclaimer
 
